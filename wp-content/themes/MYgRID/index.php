@@ -16,7 +16,6 @@
                 </div>
 				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				<div class="postinn bags">
-				<!--<div class="ger"><i><?php the_time('j M Y') ?></i> &bull; <?php the_excerpt(); ?></div>-->
 				<div class="ger"><i>Madagascar</i> &bull; <?php the_excerpt(); ?></div>
 				<span><a href="<?php the_permalink(); ?>">+ Info</a></span></div>
 
