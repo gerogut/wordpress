@@ -6,13 +6,9 @@
 <div id="footer" class="inset">
 <div class="box">
 <!-- credit links are not required to remain intact, but is appreciated. Thanks! -->
-	<p class="fl ger">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?> | Powered by <a href="http://wordpress.org/">WordPress</a>
-	</p>
-	
+	<p class="fl ger">Tel: (011) 4444 5555</p>
+	<p class="fr">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?></p>
 
-    <p class="fr"><a href="http://beatheme.com/" title="Professional WordPress Themes!"><img src="<?php echo get_template_directory_uri() ?>/images/beafoo-bla.png" border="0" alt="beatheme.com"/></a></p>
-	
-	
 </div>
 </div>
 
