@@ -13,9 +13,9 @@
             
 			<div class="entry bags">
             
-				<div class="ger">
+				<!--<div class="ger">
 				By <?php the_author() ?>  &bull; <?php the_category(', ') ?> &bull; <?php the_time('j M Y') ?>
-				</div>
+				</div>-->
 
 
 				<?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>
