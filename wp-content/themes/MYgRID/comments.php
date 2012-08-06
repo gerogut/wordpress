@@ -44,7 +44,8 @@
 	 */
 	 if ( ! comments_open() && is_single()) :
 ?>
-	<p class="nocomments">Comments are closed.</p>
+	<!--<p class="nocomments">Comments are closed.</p>-->
+	<p class="nocomments"></p>
 <?php endif; // end ! comments_open() ?>
 
 <?php endif; // end have_comments() ?>
