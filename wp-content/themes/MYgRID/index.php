@@ -3,10 +3,10 @@
 	$pov_disthumb = get_option('pov_disthumb');
 ?>
 	<div class="box">
+	<?php if (function_exists("easing_slider")){ easing_slider(); }; ?>
 	<ul id="latestpost">
 	<?php $firstClass = 'firstpost'; ?>
 	<?php if (have_posts()) : ?>
-
 		<?php while (have_posts()) : the_post(); ?>
 
 			<li class="bags <?php echo $firstClass; $firstClass = ""; ?>" id="post-<?php the_ID(); ?>">
@@ -30,7 +30,6 @@
         </div>
 
 	<?php endif; ?>
-
 	</ul>
 			<div class="clear"></div>
 			<div class="navigation ger">
@@ -42,5 +41,4 @@
 
 
 	<h1 class="title"><?php bloginfo('description'); ?></h1>
-
 <?php get_footer(); ?>
