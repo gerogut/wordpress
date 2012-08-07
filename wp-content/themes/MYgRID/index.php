@@ -3,7 +3,9 @@
 	$pov_disthumb = get_option('pov_disthumb');
 ?>
 	<div class="box">
-	<?php if (function_exists("easing_slider")){ easing_slider(); }; ?>
+	<div align="center" <?php if (function_exists("easing_slider")){ easing_slider(); }; ?>
+	</div>
+	<div class="hrlineB"></div>
 	<ul id="latestpost">
 	<?php $firstClass = 'firstpost'; ?>
 	<?php if (have_posts()) : ?>
