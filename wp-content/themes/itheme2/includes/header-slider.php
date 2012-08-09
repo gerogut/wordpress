@@ -1,8 +1,8 @@
 <?php if(themify_check('setting-header_slider_enabled')){ ?>
 	<div id="header-slider" class="pagewidth slider">
-			
+		
 		<ul class="slides clearfix">
-
+		<div align="center" <?php if (function_exists("easing_slider")){ easing_slider(); }; ?> </div>
     		<?php 
 			if(themify_check('setting-header_slider_posts_category')){
 				$cat = "&cat=".themify_get('setting-header_slider_posts_category');	
