@@ -32,7 +32,7 @@
                      <a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a>
                 <?php } ?>
             </div>
-            <div id="site-description"><?php bloginfo('description'); ?></div>
+            <!--<div id="site-description"><?php bloginfo('description'); ?></div>-->
     
                     
             <div class="social-widget">
